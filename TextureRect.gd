@@ -14,7 +14,7 @@ var shader_groups : Vector3i
 var input_texture : ImageUniform
 var output_texture : ImageUniform
 var shader_parameters_buffer : StorageBufferUniform
-var shader_parameters = [0.0, 0.0]
+var shader_parameters : Array = [0.0, 0.0]
 
 func _ready():
 	# to safely access rendering internals, it is better to call functions this way
